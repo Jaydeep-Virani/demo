@@ -33,7 +33,7 @@ function Stateexmps(){
                 type="checkbox"
                 checked={isChecked}
                 onChange={() => setIsChecked(!isChecked)} />
-            <p style={{fontWeight: isChecked ? "bold" : "normal"}} >Virani Jaydeep</p>
+            <p style={{fontWeight: isChecked ? "bold" : "normal"}} > Virani Jaydeep </p>
         </div>
     );
 }
