@@ -4,6 +4,10 @@ import Stateexmp from "./lec2612/stateexmp";
 import StateMani from "./lec2612/statemani";
 import IterableExample from "./lec2612/objiter";
 import Stateexmps from "./lec0201/stateexmp";
+import Exercies1 from "./lec0601/exercies1";
+import Exercies2 from "./lec0601/exercies2";
+import Exercies3 from "./lec0601/exercies3";
+import Exercies4 from "./lec0601/exercies4";
 createRoot(document.getElementById('root')).render(
   <div>
     <MyComponent />
@@ -11,5 +15,9 @@ createRoot(document.getElementById('root')).render(
     <StateMani />
     <IterableExample />
     <Stateexmps />
+    <Exercies1 />
+    <Exercies2 />
+    <Exercies3 />
+    <Exercies4 />
   </div>
 );
