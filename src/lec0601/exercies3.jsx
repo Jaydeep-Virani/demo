@@ -11,7 +11,7 @@ const Exercies3 = () => {
 
   const toggleVisibility = () => {
     setIsTextVisible(!isTextVisible);
-  };
+};
 
   return (
     <div>
@@ -33,5 +33,5 @@ const Exercies3 = () => {
       {isTextVisible && <p>{text}</p>}
     </div>
   );
-};
+}
 export default Exercies3;
