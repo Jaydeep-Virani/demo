@@ -9,6 +9,7 @@ import Exercies2 from "./lec0601/exercies2";
 import Exercies3 from "./lec0601/exercies3";
 import Exercies4 from "./lec0601/exercies4";
 import ApiSimulation from "./lec1601/usereffectclass";
+import ListComponent from "./lec1601/exercies1";
 createRoot(document.getElementById('root')).render(
   <div>
     <MyComponent />
@@ -21,5 +22,6 @@ createRoot(document.getElementById('root')).render(
     <Exercies3 />
     <Exercies4 />
     <ApiSimulation />
+    <ListComponent/>
   </div>
 );
