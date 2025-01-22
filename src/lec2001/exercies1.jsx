@@ -1,11 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const Exerciess1 = () => {
-  const images = [
-    '/images/ad1.jpg',
-    '/images/ad2.jpg',
-    '/images/ad3.jpg',
-  ];
+  const images = ['/images/ad1.jpg','/images/ad2.jpg','/images/ad3.jpg',];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
